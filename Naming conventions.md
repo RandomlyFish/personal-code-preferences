@@ -4,6 +4,12 @@ The purpose of the following guidelines are not to restrict what names you can u
 
 <br>
 
+## General
+
+The importance of a strict naming conventions depends on where the variable is declared. If you define a variable inside a loop that perform something basic, then the name isn't quite that important, as usually the context that the variable is in would make it self explanatory enough. However, for a variable that is used in many places across an entire file, it's much more important.
+
+<br>
+
 ## Variable names
 
 The core concept which applies to all the following guidelines is that the way a variable is named should make it obvious what the type of the variable is. This is especially important in a language like javascript, where you generally don't annotate the type of variables.
@@ -47,3 +53,13 @@ Let's take two similar variable names as an example, "rectangleCenterPosition" a
 
 * "rectangleCenterPosition" = The position at the center of the rectangle
 * "centerRectanglePosition" = The rectangle which is in the center
+
+<br>
+
+### Use commonly used words
+
+Even if there are fancy mathematical terms that describes the variable you are defining, sticking to commonly used words whenever possible makes it easier for everyone else to understand what the variable is for.
+
+Let's take "factor" as an example. The definition of a factor is a value which is intended to be multiplied by another value. So a more self explanatory name would simply be "multiplier", since if you know basic math, you know about multiplication.
+
+Another example would be "centroid", which by definition means the center of mass for a geometric shape. Unless you're actually writing algorythms for calculating gemetric data, "center" should do just fine.
