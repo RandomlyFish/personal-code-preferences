@@ -43,7 +43,7 @@ Examples: "animationOptions", "productDetails", "graphicSettings", "itemInfo"
 
 ## Variable name implications
 
-Making sure that the name of a variable accurately represet what it stores is extremely important.
+While you always know what a variable or function is used for when you first create them, it's still important that you pick names that accurately represents what they store or do. If not, you will likely find your own code hard to follow later down the line. And if you work with other people, this is especially important for them to understand the code.
 
 <br>
 
